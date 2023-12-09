@@ -1,0 +1,43 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "button-type": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off",
+        "input-button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "min-height: auto"
+        ]
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "marquee": "off"
+      }
+    ]
+  }
+}
